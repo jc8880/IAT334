@@ -2,6 +2,13 @@
     padding: 3rem;
 }
 
+.nav {
+position: absolute;
+}
+
+.navLink {
+    display: block;
+}
 
 .sectionA {
     padding: 2rem 3rem;
