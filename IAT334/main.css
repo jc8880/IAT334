@@ -1,16 +1,38 @@
-.mainContainer {
+.extraPadding {
     padding: 3rem;
-    background-color: whitesmoke;
+}
+
+
+.sectionA {
+    padding: 2rem 3rem;
+    padding-top: 0rem;
+    background-color: #68CAE5;
    }
 
 .logo {
     display: block;
-    margin: 4rem auto;
-    max-width: 13rem;
+    margin: 0 auto;
+    max-width: 25rem;
 }
 
 .mainTitle {
     font-size: 3rem;
     font-weight: bold;
     max-width: 50rem;
+    color: white;
 }
+
+.introText {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    max-width: 50rem;
+    color: white;
+}
+
+.sectionB {
+    padding: 3rem 3rem;
+    background-color: white;
+   }
