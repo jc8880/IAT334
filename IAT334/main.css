@@ -10,14 +10,15 @@ html {
 position: fixed;
 justify-content: center;
 width: 100%;
-background-color: #08586ef6;
+background-color: #08586ef1;
 }
 
 .navLink {
-    padding: 1.2rem 1.25rem;
+    padding: 1.1rem 1.25rem;
     color: white;
     font-weight: bold;
     text-align: center;
+    font-size: 0.85rem;
 }
 
 .navLink:hover, .navLink:focus {
@@ -29,22 +30,13 @@ background-color: #08586ef6;
 .sectionA {
     padding: 2rem 3rem;
     padding-top: 0rem;
-    background-color: #68CAE5;
    }
 
 .logo {
     display: block;
     margin: 0 auto;
-    max-width: 25rem;
-}
-
-.mainTitle {
-    font-size: 3rem;
-    font-weight: bold;
-    max-width: 50rem;
-    color: white;
-    padding: 3rem 2rem;
-    padding-bottom: 1rem;
+    max-width: 37rem;
+    padding: 4rem;
 }
 
 .introText {
@@ -52,10 +44,40 @@ background-color: #08586ef6;
     margin: 0 auto;
     text-align: center;
     font-size: 1.25rem;
-    font-weight: normal;
-    max-width: 40rem;
-    color: white;
+    font-weight: bold;
+    max-width: 50rem;
+    color: black;
+    padding: 0 3rem;
     padding-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.mainImg {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    opacity: 80%;
+    min-height: 50rem;
+}
+
+.appImgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.appImg1 {
+    max-width: 17rem;
+    padding: 1rem;
+    padding-top: 10rem;
+    object-fit: contain;
+}
+
+.appImg2 {
+    max-width: 15rem;
+    padding: 1rem;
+    padding-top: 10rem;
+    object-fit: contain;
 }
 
 .sectionB {
