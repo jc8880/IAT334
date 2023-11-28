@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .extraPadding {
     padding: 3rem;
 }
@@ -54,11 +58,17 @@ background-color: rgba(245, 245, 245, 0.75);
 }
 
 .sectionB {
-    padding: 3rem 3rem;
+    padding: 8rem 3rem;
+    padding-right: 18rem;
     background-color: white;
    }
 
-.researchTitle {
+.sectionC {
+    padding: 8rem 3rem;
+    background-color: whitesmoke;
+   }
+
+.subTitle {
     font-size: 3rem;
     font-weight: bold;
     max-width: 50rem;
