@@ -45,6 +45,8 @@ background-color: rgba(245, 245, 245, 0.75);
     font-weight: bold;
     max-width: 50rem;
     color: white;
+    padding: 3rem 2rem;
+    padding-bottom: 1rem;
 }
 
 .introText {
@@ -52,9 +54,10 @@ background-color: rgba(245, 245, 245, 0.75);
     margin: 0 auto;
     text-align: center;
     font-size: 1.25rem;
-    font-weight: bold;
-    max-width: 50rem;
+    font-weight: normal;
+    max-width: 40rem;
     color: white;
+    padding-bottom: 2rem;
 }
 
 .sectionB {
