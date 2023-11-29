@@ -3,7 +3,7 @@ html {
 }
 
 .extraPadding {
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .nav {
@@ -57,7 +57,7 @@ background-color: #000000ca;
     object-fit: cover;
     z-index: -1;
     width: 100%;
-    opacity: 80%;
+    opacity: 60%;
     min-height: 50rem;
 }
 
