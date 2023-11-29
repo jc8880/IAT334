@@ -156,51 +156,56 @@
       </div>
       <div class = extraPadding></div>
 
-      <img class = diagramImg src = "img/1st Interaction Flow.png">
-      <h3 class = "heading3 centerAlign"> Overall App Feature Interaction Diagram</h3>
+      <img class = "diagramImg flowMaxSize" src = "img/1st Interaction Flow.png">
+      <h3 class = "heading3 centerAlign">App Interaction Diagram</h3>
+      <p class = centerAlign>A flow diagram of our app's main features</p>
       <div class = extraPadding></div>
 
       <img class = "diagramImg ImgContainer" src = "img/Todo interaction flow.png">
       <h3 class = "heading3 centerAlign"> "To-Do" Reminders Feature Interaction Diagram</h3>
+      <p class = "centerAlign">An expanded diagram specific to the "to-do" feature of our app, with multiple options for customization</p>
       <div class = extraPadding></div>
         
       <img class = diagramImg src = "img/Storyboard.png">
     <h3 class = "heading3 centerAlign"> Initial Storyboard</h3>
+    <p class = "centerAlign">Our preliminary sketches outlining the core interactable elements and navigation</p>
     <div class = extraPadding></div>
         
       <img class = diagramImg src = "img/Wireframe.png">
       <img class = diagramImg src = "img/Wireframe cont..png">
     <h3 class = "heading3 centerAlign"> Initial Wireframes</h3>
+    <p class = "centerAlign">Refined wireframes which we used as a layout reference to design our prototype</p>
     <div class = extraPadding></div>
 
     </section>
 
 
-    <section id = "testing" class = sectionC>
+    <section id = "testing" class = "sectionC">
       <h2 class = "subTitle frameworkTitle centerAlign">USER TESTING</h2>
+      <p class = centerAlign>To gain a better understanding of how our audience would use Early Riser, we conducted trial interviews that would offer us a better idea of how to improve the app</p>
       <div class = extraPadding></div>
 
       <div class = flexContainer>
         <div class = "flexItem boxBackground">
-          <p class = "subText secondaryColour">OUR PLAN</p>
+          <p class = "subText white">OUR PLAN</p>
           <ul>
-            <li>Prepare what tasks the participants would do in the application.</li>
+            <li>Prepare tasks to guide our participants within the application.</li>
             <li>Allow the participants to go through the application.</li>
-            <li>Prepare the usability testing questionnaire.</li>
+            <li>Prepare a questionnaire.</li>
             <li>Interview the participants regarding the application.</li>
           </ul>
         </div>
         <div class = "flexItem boxBackground">
           <p class = "subText backgroundColour">OUR METHODS</p>
           <ul>
-            <li>We would allow the participants to use the application uninterrupted for the specified time or until they complete the task</li>
-            <li>We would take notes of how they were approaching the completion of our assigned tasks and any other usability problems</li>
-            <li>Besides taking notes and assisting when they are struggling with some tasks, we otherwise allow the user to experience the application independently</li>
+            <li>Allow the participants to use the application uninterrupted for the specified time or until they complete the task</li>
+            <li>Take notes of how they were approaching the completion of our assigned tasks and any other problems encountered</li>
+            <li>Besides taking notes and assisting if struggling, we otherwise allow the user to experience the application independently</li>
           </ul>
         </div>
         <div class = "flexItem boxBackground">
           <p class = "subText">USER TASKS</p>
-          <p>A few pre-determined tasks were chosen each time, for example:</p>
+          <p>A few pre-determined tasks were chosen each time. For example:</p>
           <ul>
             <li>“Add a reminder for ‘lunch’ to your daily reminders list”</li>
             <li>“Find and watch a video that most interests you”</li>
@@ -208,8 +213,8 @@
           </ul>
         </div>
         <div class = "flexItem boxBackground">
-          <p class = "subText secondaryColour">QUESTIONS</p>
-          <p>Examples of some questions we asked the participants, with common replies</p>
+          <p class = "subText white">QUESTIONS</p>
+          <p>Examples of questions we asked the participants, with common replies</p>
           <ul>
             <li>How did you feel when looking at the app’s visuals? What emotions did it evoke?</li>
             <p>Organized, cheery, easy to read</p>
@@ -230,16 +235,30 @@
       </div>
 
       <div class = extraPadding></div>
-      <div class = centerAlign>
-        <h3 class = heading3>Based on Our User Testing Feedback, we focused on a few main revisions</h3>
-          <p><strong>DESIGN ISSUE 1 (progress bar):</strong></p>
-          <p>The design of the progress bar too closely resembled the interactable buttons</p>
-          <p>To improve, the progress bar was revised with additional feedback such as text to indicate what it is progressing towards, clarifying its purpose to the user</p>
-          <p><strong>DESIGN ISSUE 2 (Reminders time selector button):</strong></p>
-          <p>Considering the context of use being on a mobile phone rather than desktop, we needed to enlarge the text area to better match with the common surface area of a finger</p>
-          <p><strong>DESIGN ISSUE 3 (Lack of Customization):</strong></p>
-          <p>Our feedback indicated the need to design a way for the user to add new entries to the list of activities they could choose from</p>
-          <p>To improve the functionality of the application, we considered how we could allow these new entries to interact with the overall timeline of the "to-do" reminder page</p>
+
+
+      <div class = flexContainer>
+        <div class = flexItem>
+          <h3 class = heading3>Based on our user testing feedback, we focused on a few main revisions:</h3>
+            <p><strong>DESIGN ISSUE 1 (progress bar)</strong></p>
+            <ul>
+              <li>The design of the progress bar too closely resembled the interactable buttons</li>
+              <li>To improve, the progress bar was revised with additional feedback such as text to indicate what it is progressing towards, clarifying its purpose to the user</li>
+            </ul>
+            <p><strong>DESIGN ISSUE 2 (Reminders time selector button)</strong></p>
+            <ul>
+            <li>Considering the context of use being on a mobile phone rather than desktop, we needed to enlarge the text area to better match with the common surface area of a finger</li>
+            </ul>
+            <p><strong>DESIGN ISSUE 3 (Lack of Customization)</strong></p>
+            <ul>
+            <li>Our feedback indicated the need to design a way for the user to add new entries to the list of activities they could choose from</li>
+            <li>To improve the functionality of the application, we considered how we could allow these new entries to interact with the overall timeline of the "to-do" reminder page</li>
+            </ul>
+          </div>
+        <div class = "flexItem appImgContainer">
+          <img class = appImgTesting src = "img/customizations.png">
+          <img class = appImgTesting src = "img/progressBar.png">
+        </div>
       </div>
     </section>
 

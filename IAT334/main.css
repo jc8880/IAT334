@@ -18,6 +18,10 @@ html {
     color:#08586E;
 }
 
+.white {
+    color: white;
+}
+
 .nav {
 position: fixed;
 justify-content: center;
@@ -139,7 +143,7 @@ z-index: 5;
    }
 
 .subTitle {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     max-width: 50rem;
     color: black;
@@ -235,7 +239,8 @@ z-index: 5;
 .boxBackground {
     margin: 1rem;
     padding: 1.5rem;
-    background-color: white;
+    background-color: #68CAE5;
+    box-shadow: 5px 10px rgb(206, 206, 206);
     max-width: 45rem;
 }
 
@@ -254,12 +259,23 @@ z-index: 5;
 }
 
 .diagramImg {
-    max-width: 70rem;
+    max-width: 60rem;
     min-width: 20rem;
     object-fit:contain;
 display: block;
 margin:0 auto;
 width: 100%;
+}
+
+.flowMaxSize {
+    max-width: 40rem;
+}
+
+.appImgTesting {
+    min-width: 5rem;
+    max-width: 15rem;
+    padding: 1rem;
+    object-fit: contain;
 }
 
 .opacity1 {
