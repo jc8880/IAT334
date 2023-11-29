@@ -51,6 +51,18 @@ background-color: #000000ca;
     padding-bottom: 2rem;
     font-size: 1.2rem;
 }
+.subText {
+    display: block;
+    margin: 0 auto;
+    text-align: Left;
+    font-size: 1.25rem;
+    font-weight: bold;
+    max-width: 50rem;
+    color: black;
+    padding: 0 3rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+}
 
 .mainImg {
     position: absolute;
