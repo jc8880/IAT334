@@ -219,6 +219,11 @@ z-index: 5;
     margin: 0 auto;
 }
 
+.ImgContainer {
+    display: flex;
+    justify-content: center;
+}
+
 .boxBackground {
     margin: 1rem;
     padding: 1.5rem;
