@@ -10,7 +10,7 @@ html {
 position: fixed;
 justify-content: center;
 width: 100%;
-background-color: #08586ef1;
+background-color: #000000ca;
 }
 
 .navLink {
@@ -23,7 +23,7 @@ background-color: #08586ef1;
 
 .navLink:hover, .navLink:focus {
     text-decoration: none;
-    color: #021b21;
+    color: #FFDE65;
     transition-duration: 0.15s;
 }
 
@@ -64,6 +64,7 @@ background-color: #08586ef1;
 .appImgContainer {
     display: flex;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .appImg1 {
@@ -80,19 +81,42 @@ background-color: #08586ef1;
     object-fit: contain;
 }
 
+.appImgTitle {
+    display: block;
+    margin: 1rem auto;
+    font-size: 2.5rem;
+    font-weight: bold;
+    max-width: 50rem;
+    color: black;
+    text-align: center;
+}
+
+.appImgText {
+    display: block;
+    margin: 1.5rem auto;
+    font-size: 1.2rem;
+    max-width: 25rem;
+    color: black;
+    text-align: center;
+}
+
+.secondaryColour {
+    color:#68CAE5;
+}
+
 .sectionB {
-    padding: 8rem 3rem;
+    padding: 7rem 3rem;
     padding-right: 18rem;
     background-color: white;
    }
 
 .sectionC {
-    padding: 8rem 3rem;
+    padding: 7rem 3rem;
     background-color: whitesmoke;
    }
 
 .subTitle {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     max-width: 50rem;
     color: black;
