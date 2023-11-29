@@ -135,6 +135,7 @@ z-index: 5;
 .sectionC {
     padding: 7rem 3rem;
     background-color: whitesmoke;
+    z-index: -1;
    }
 
 .subTitle {
@@ -212,12 +213,18 @@ z-index: 5;
 }
 
 .personaImg {
-    padding: 1rem;
-    width: 100%;
-    max-height: 30rem;
+    padding: 0.25rem;
+    max-height: 21rem;
     object-fit: contain;
     display: block;
-    margin: 0 auto;
+    margin: 2rem auto;
+    border: solid #68CAE5;
+    z-index: 2;
+}
+
+.centerImg {
+    display: flex;
+    align-items: center;
 }
 
 .ImgContainer {
@@ -229,11 +236,20 @@ z-index: 5;
     margin: 1rem;
     padding: 1.5rem;
     background-color: white;
+    max-width: 45rem;
+}
+
+.link {
+    border: solid #68CAE5;
+    margin:0 auto;
+    padding:0.5rem;
+    width: 10rem;
 }
 
 .link:hover, .link:focus {
     text-decoration: none;
-    color: #08586E;
+    color: #08586E;    
+    border: solid #08586E;
     transition-duration: 0.15s;
 }
 
@@ -244,4 +260,43 @@ z-index: 5;
 display: block;
 margin:0 auto;
 width: 100%;
+}
+
+.opacity1 {
+    animation: opacityAnimate1 7s infinite alternate ease-out;
+}
+
+@keyframes opacityAnimate1 {
+    0% { opacity: 50%; }
+    20% { opacity: 50% }
+    40% { opacity: 100% }
+    60% { opacity: 100% }
+    80% { opacity: 50% }
+    100% { opacity: 50%; }
+}
+
+.opacity2 {
+    animation: opacityAnimate2 7s infinite alternate ease-out;
+}
+
+@keyframes opacityAnimate2 {
+    0% { opacity: 100%; }
+    20% { opacity: 100% }
+    40% { opacity: 50% }
+    60% { opacity: 50% }
+    80% { opacity: 50% }
+    100% { opacity: 50%; }
+}
+
+.opacity3 {
+    animation: opacityAnimate3 7s infinite alternate ease-out;
+}
+
+@keyframes opacityAnimate3 {
+    0% { opacity: 60%; }
+    20% { opacity: 60% }
+    40% { opacity: 60% }
+    60% { opacity: 60% }
+    80% { opacity: 100% }
+    100% { opacity: 100%; }
 }
