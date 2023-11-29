@@ -227,7 +227,7 @@ z-index: 5;
 .boxBackground {
     margin: 1rem;
     padding: 1.5rem;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .link:hover, .link:focus {
