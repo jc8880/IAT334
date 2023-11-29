@@ -207,3 +207,12 @@ z-index: 5;
     color:#68CAE5;
     padding: 0.5rem 0;
 }
+
+.personaImg {
+    padding: 1rem;
+    width: 100%;
+    max-height: 30rem;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
