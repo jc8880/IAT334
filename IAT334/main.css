@@ -58,7 +58,6 @@ z-index: 5;
     font-size: 1.25rem;
     font-weight: bold;
     max-width: 50rem;
-    color: black;
     padding: 0 3rem;
     padding-bottom: 2rem;
     font-size: 1.2rem;
@@ -113,7 +112,6 @@ z-index: 5;
     font-size: 2.5rem;
     font-weight: bold;
     max-width: 50rem;
-    color: black;
     text-align: center;
 }
 
@@ -215,4 +213,16 @@ z-index: 5;
     object-fit: contain;
     display: block;
     margin: 0 auto;
+}
+
+.boxBackground {
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: whitesmoke;
+}
+
+.link:hover, .link:focus {
+    text-decoration: none;
+    color: #08586E;
+    transition-duration: 0.15s;
 }
