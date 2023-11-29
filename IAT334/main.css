@@ -127,7 +127,6 @@ z-index: 5;
 
 .sectionB {
     padding: 7rem 3rem;
-    padding-right: 18rem;
     background-color: white;
    }
 
@@ -190,4 +189,10 @@ z-index: 5;
 
 .researchPoints {
     padding: 0.75rem 0;
+}
+
+.centerAlign {
+    max-width: 45rem;
+    display: block;
+    margin: 0 auto;
 }
