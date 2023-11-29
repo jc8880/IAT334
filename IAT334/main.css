@@ -6,11 +6,20 @@ html {
     padding: 2rem;
 }
 
+.secondaryColour {
+    color:#68CAE5;
+}
+
+.accentColour {
+    color:#FFDE65;
+}
+
 .nav {
 position: fixed;
 justify-content: center;
 width: 100%;
 background-color: #000000ca;
+z-index: 5;
 }
 
 .navLink {
@@ -36,7 +45,10 @@ background-color: #000000ca;
     display: block;
     margin: 0 auto;
     max-width: 37rem;
+    min-width: 10rem;
+    width: 100%;
     padding: 4rem;
+    object-fit: contain;
 }
 
 .introText {
@@ -80,6 +92,7 @@ background-color: #000000ca;
 }
 
 .appImg1 {
+    min-width: 5rem;
     max-width: 17rem;
     padding: 1rem;
     padding-top: 10rem;
@@ -87,6 +100,7 @@ background-color: #000000ca;
 }
 
 .appImg2 {
+    min-width: 5rem;
     max-width: 15rem;
     padding: 1rem;
     padding-top: 10rem;
@@ -95,7 +109,7 @@ background-color: #000000ca;
 
 .appImgTitle {
     display: block;
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     font-size: 2.5rem;
     font-weight: bold;
     max-width: 50rem;
@@ -108,12 +122,7 @@ background-color: #000000ca;
     margin: 1.5rem auto;
     font-size: 1.2rem;
     max-width: 25rem;
-    color: black;
     text-align: center;
-}
-
-.secondaryColour {
-    color:#68CAE5;
 }
 
 .sectionB {
@@ -132,4 +141,53 @@ background-color: #000000ca;
     font-weight: bold;
     max-width: 50rem;
     color: black;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flexItem {
+    flex: 1;
+    min-width: 25rem;
+}
+
+.researchBackground {
+    background-color: #68CAE5;
+    color: white;
+    z-index: -1;
+}
+
+.lightbulbImg {
+    opacity: 30%;
+    padding: 4rem;
+    max-width: 20rem;
+    z-index: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.researchTitle {
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 0.75rem;
+    text-align: center;
+    z-index: 1;
+    font-size: 4rem;
+    color: white;
+    max-width: 20rem;
+}
+
+.domain {
+    color:black; 
+    font-size: 1.5rem;
+}
+
+.researchPoints {
+    padding: 0.75rem 0;
 }
