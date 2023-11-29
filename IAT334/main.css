@@ -196,3 +196,14 @@ z-index: 5;
     display: block;
     margin: 0 auto;
 }
+
+.frameworkTitle {
+    text-align: center;
+}
+
+.heading3 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color:#68CAE5;
+    padding: 0.5rem 0;
+}
